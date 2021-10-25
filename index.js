@@ -1,18 +1,26 @@
 #!/usr/bin/env node
 const program = require('commander');
 
+
 const helpOptions = require('./lib/core/help');
 const createCommands = require('./lib/core/create');
 
-const log = require('./lib/utils/log');
 const answer = require('./lib/questions/index');
+const init = require('./lib/questions/init');
+const figlet = require('./lib/utils/figlet');
 
-let res =  answer()
-res.then(res1 => {
-console.log(res1,'======')
+// let res =  answer()
+// res.then(res1 => {
+// console.log(res1,'======')
 
-})
-return
+// })
+
+// return
+
+// 打印炫酷的log
+figlet();
+init();
+
 // 定义显示模块的版本号
 program.version(require('./package.json').version);
 
