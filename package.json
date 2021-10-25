@@ -1,6 +1,6 @@
 {
-  "name": "peregrine-cli",
-  "version": "0.0.1",
+  "name": "mars-cli",
+  "version": "1.0.0",
   "description": "peregrine cli for vue tools",
   "main": "index.js",
   "bin": {
@@ -18,10 +18,10 @@
   ],
   "author": "haines",
   "license": "MIT",
-  "homepage": "https://github.com/365fed/peregrine-cli.git",
+  "homepage": "https://github.com/365fed/mars-cli.git",
   "repository": {
     "type": "git",
-    "url": "https://github.com/365fed/peregrine-cli.git"
+    "url": "https://github.com/365fed/mars-cli.git"
   },
   "dependencies": {
     "chalk": "^4.1.0",
@@ -31,6 +31,6 @@
     "figlet": "^1.5.2",
     "inquirer": "^8.1.1",
     "open": "^7.3.0",
-    "ora": "^6.0.1"
+    "ora": "^5.4.1"
   }
 }
