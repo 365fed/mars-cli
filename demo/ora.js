@@ -1,10 +1,10 @@
 const ora = require('ora');
-const spinner = ora('Loading unicorns').start()
+const spinner = ora('Loading').start()
 setTimeout(()=> {
   spinner.color = "yellow"
   spinner.text = "mars-cli loading"
-  setTimeout(()=> {
-    spinner.stop()
-  },2000)
-},2000)
-console.log(123)
+  // setTimeout(()=> {
+  //   spinner.stop()
+  // }, 2000)
+  spinner.stop()
+},1000)

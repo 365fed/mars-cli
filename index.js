@@ -7,7 +7,7 @@ const createCommands = require('./lib/core/create');
 
 const answer = require('./lib/questions/index');
 // const init = require('./lib/questions/init');
-const figlet = require('./lib/utils/figlet');
+
 
 // let res =  answer()
 // res.then(res1 => {
@@ -16,9 +16,6 @@ const figlet = require('./lib/utils/figlet');
 // })
 
 // return
-
-// 打印炫酷的log
-// figlet();
 // init();
 
 // 定义显示模块的版本号
