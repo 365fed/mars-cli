@@ -1,7 +1,7 @@
 {
-  "name": "mars-cli",
-  "version": "1.0.0",
-  "description": "peregrine cli for vue tools",
+  "name": "@ipoodle/mars-cli",
+  "version": "1.0.3",
+  "description": "mars cli is for project tools",
   "main": "index.js",
   "bin": {
     "oc": "index.js"
@@ -10,18 +10,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "peregrine",
+    "mars-cli",
     "vue",
     "react",
     "cli",
     "component"
   ],
-  "author": "haines",
+  "author": "Haines",
   "license": "MIT",
-  "homepage": "https://github.com/365fed/mars-cli.git",
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/365fed/mars-cli.git"
+    "url": ""
   },
   "dependencies": {
     "chalk": "^4.1.0",
