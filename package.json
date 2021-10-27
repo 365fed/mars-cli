@@ -1,6 +1,6 @@
 {
   "name": "@ipoodle/mars-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "mars cli is for project tools",
   "main": "index.js",
   "bin": {
